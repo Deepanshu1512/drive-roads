@@ -1,0 +1,41 @@
+/* Top navigation bar */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #2e2e2e;
+  color: #eeeeee;
+}
+
+.top-nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.top-nav .nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+.top-nav .nav-button {
+  background: transparent;
+  border: none;
+  color: #cccccc;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.top-nav .nav-button.active {
+  color: #00ff88; /* green accent */
+}
+
+.top-nav .actions .icon {
+  margin-left: 12px;
+  color: #cccccc;
+  cursor: pointer;
+}
